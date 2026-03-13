@@ -38,3 +38,31 @@ A beautifully designed, cross-platform recipe discovery application built with R
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Ahilasuki/Mealify.git](https://github.com/Ahilasuki/Mealify.git)
+   2. **Navigate to the project directory:**
+   ```bash
+   cd Mealify
+   3. **Install dependencies:**
+   ```bash
+   npm install
+   4. **Run the application:**
+   - For Android:
+     ```bash
+     npx react-native run-android
+   - For iOS:
+     ```bash
+     npx react-native run-ios  
+## 📂 Project Structure
+```
+Mealify/
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── screens/           # Screen components for navigation
+│   ├── store/             # Redux store, actions, reducers
+│   ├── api/               # API service for fetching data
+|   |__ navigation/          # Navigation setup (Bottom Tabs & Stack Navigator)
+|   |__ utils/               # Utility functions and constants
+│   └── assets/            # Images, icons, and other static assets
+├── App.js                # Entry point of the application
+├── package.json          # Project dependencies and scripts
+└── README.md             # Project documentation
+```
