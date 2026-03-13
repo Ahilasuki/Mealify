@@ -1,8 +1,8 @@
-# Mealify 🥗 
+# Mealify  
 
 A beautifully designed, cross-platform recipe discovery application built with React Native. Mealify allows users to browse global and regional cuisines, filter by dietary preferences, and save their favorite recipes locally.
 
-## ✨ Features
+##  Features
 
 * **Smart Search & Filtering:** Instantly search for recipes globally or filter specifically by category (e.g., All Indian, Veg, Non-Veg) using a custom-built segmented tab control.
 * **State Management:** Utilizes **Redux** to manage global state, allowing users to effortlessly save and remove favorite recipes across different screens.
@@ -10,7 +10,7 @@ A beautifully designed, cross-platform recipe discovery application built with R
 * **Responsive Layouts:** Implements modern Flexbox techniques to ensure pixel-perfect rendering across varying screen sizes.
 * **API Integration:** Seamlessly fetches and filters asynchronous data from [TheMealDB API](https://www.themealdb.com/api.php).
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Framework:** React Native
 * **State Management:** Redux / React-Redux
@@ -26,7 +26,7 @@ A beautifully designed, cross-platform recipe discovery application built with R
 | ![Home](./screenshots/Home.png) | ![Filters](./screenshots/Filtered_image.png) | ![Receipe](./screenshots/Recipe_screen.png) | ![Favorites](./screenshots/Favorites_screen.png) |
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 * Node.js
@@ -38,20 +38,20 @@ A beautifully designed, cross-platform recipe discovery application built with R
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Ahilasuki/Mealify.git](https://github.com/Ahilasuki/Mealify.git)
-   2. **Navigate to the project directory:**
+2. **Navigate to the project directory:**
    ```bash
    cd Mealify
-   3. **Install dependencies:**
+3. **Install dependencies:**
    ```bash
    npm install
-   4. **Run the application:**
+4. **Run the application:**
    - For Android:
      ```bash
      npx react-native run-android
    - For iOS:
      ```bash
      npx react-native run-ios  
-## 📂 Project Structure
+##  Project Structure
 ```
 Mealify/
 ├── src/
